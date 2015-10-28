@@ -1,0 +1,14 @@
+{
+	"manageLocations": "Manage cities",
+	"enterCityName": "Enter city name",
+	"useCurrentLocation": "My current location",
+	"gettingLocation": "Getting location...",
+	"locationError": "Couldn't get location!\nMake sure location service is enabled",
+	"noCityWithLocation": "Couldn't get city with this location!",
+	"noInternet": "No Internet connection!", 
+	"selectedCities": "Selected cities",
+	"delete": "Delete",
+	"done": "Done",
+	"added": "City added",
+	"deleted": "City deleted"
+}

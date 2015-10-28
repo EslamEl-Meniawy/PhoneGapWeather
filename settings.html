@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+		<title>Weather Settings</title>
+		<link rel="stylesheet" type="text/css" href="css/settings.css">
+	</head>
+	<body>
+		<div class="head bg-color"><span id="settings"></span></div>
+		<div class="items-holder">
+			<div class="setting-item" id="settings-item-location">
+				<div class="setting-item-text">
+					<span class="item-title" id="manage-locations"></span>
+				</div>
+			</div>
+			<div class="setting-item" id="settings-item-weather-unit">
+				<div class="setting-item-text">
+					<span class="item-title" id="weather-unit"></span>
+					<span class="item-config">
+						<span id="F">F</span> <span class="hash">|</span> <span id="C">C</span>
+					</span>
+				</div>
+			</div>
+			<div class="setting-item" id="settings-item-interval">
+				<div class="setting-item-text">
+					<span class="item-title" id="interval"></span>
+					<span class="item-config">
+						<span id="selected-interval"></span> <span id="hour"></span>
+					</span>
+				</div>
+			</div>
+			<div class="setting-item" id="settings-item-language">
+				<div class="setting-item-text">
+					<span class="item-title" id="language"></span>
+					<span class="item-config" id="selected-language"></span>
+				</div>
+			</div>
+			<div class="setting-item">
+				<div class="setting-item-text">
+					<span class="item-title" id="color"></span>
+					<span class="item-config">
+						<span class="theme theme-0" id="theme-0" onClick="changeColor(0)">&nbsp;</span>
+						<span class="theme theme-1" id="theme-1" onClick="changeColor(1)">&nbsp;</span>
+						<span class="theme theme-2" id="theme-2" onClick="changeColor(2)">&nbsp;</span>
+						<span class="theme theme-3" id="theme-3" onClick="changeColor(3)">&nbsp;</span>
+						<span class="theme theme-4" id="theme-4" onClick="changeColor(4)">&nbsp;</span>
+						<span class="theme theme-5" id="theme-5" onClick="changeColor(5)">&nbsp;</span>
+					</span>
+				</div>
+			</div>
+			<div class="bot"><div class="bot-text" id="done"></div></div>
+		</div>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/settings.js"></script>
+	</body>
+</html>

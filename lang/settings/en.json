@@ -1,0 +1,12 @@
+{
+	"settings": "Settings",
+	"manageLocations": "Manage cities",
+	"weatherUnit": "Temprature unit",
+	"updateInterval": "Update interval",
+	"hour": "Hour",
+	"hours": "Hours",
+	"language": "Language",
+	"languages": ["English", "Arabic"],
+	"color": "Color",
+	"done": "Done"
+}

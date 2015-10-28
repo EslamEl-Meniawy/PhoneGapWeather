@@ -1,0 +1,12 @@
+{
+	"settings": "الإعدادات",
+	"manageLocations": "إدارة المدن",
+	"weatherUnit": "وحدة درجة الحرارة",
+	"updateInterval": "الفاصل الزمني للتحديث",
+	"hour": "ساعة",
+	"hours": "ساعات",
+	"language": "اللغة",
+	"languages": ["الإنجليزية", "العربية"],
+	"color": "اللون",
+	"done": "تم"
+}

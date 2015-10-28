@@ -1,0 +1,14 @@
+{
+	"manageLocations": "إدارة المدن",
+	"enterCityName": "ادخل اسم المدينة",
+	"useCurrentLocation": "الموقع الحالي",
+	"gettingLocation": "جاري الحصول على الموقع...",
+	"locationError": "لم يتم العثور على الموقع!\nتأكد من تشغيل خدمة الموقع",
+	"noCityWithLocation": "لم يتم العثور على مدينة بهذا الموقع!",
+	"noInternet": "لا يوجد اتصال بالانترنت!",
+	"selectedCities": "المدن المختاره",
+	"delete": "حذف",
+	"done": "تم",
+	"added": "تم إضافة المدينة",
+	"deleted": "تم حذف المدينة"
+}

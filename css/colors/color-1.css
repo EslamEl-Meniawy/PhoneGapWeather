@@ -1,0 +1,19 @@
+.bg-color {
+	color: #fff;
+	background: #4E4E4E;
+}
+.color {
+	color: #4E4E4E;
+}
+.border-color {
+	border-color: #4E4E4E;
+}
+.week-day-active {
+	color: #fff;
+}
+.loading-bg {
+	background: url("../../img/loading-1.gif") no-repeat center;
+}
+.refresh-bg {
+	background: url("../../img/refresh-1.png") no-repeat center;
+}
